@@ -1,88 +1,23 @@
+{{# each products }}
 <div class="row mt-5">
+  {{# each this }}
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img class="img-responsive"  src="https://instagram.fath4-2.fna.fbcdn.net/vp/c06ac764307b16308568a61e22f80e85/5C7F3A50/t51.2885-15/e35/43914403_2211112399162814_80660397412365653_n.jpg" alt="breakfast at acropolis" width="300px">
+      <img class="img-responsive"  src="{{ this.imagePath }}" alt="breakfast at acropolis" width="300px">
       <div class="caption">
-        <h3>1</h3>
-        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus placeat, fugiat culpa debitis adipisci ad assumenda libero, fugit nobis recusandae non consectetur in aliquam distinctio! Sunt rem cumque ipsam voluptate!</p>
+        <h3>{{ this.title }}</h3>
+        <p class="description">{{ this.description }}</p>
         <div class="container d-flex clearfix">
-          <div class="price">$12</div>
-          <a href="#" class="btn btn-success ml-auto"  role="button">Button</a>
+          <div class="price">${{ this.price }}</div>
+          <a href="#" class="btn btn-success ml-auto"  role="button">Add to Shopping Cart</a>
         </div>
 
       </div>
     </div>
   </div>
-    <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img class="img-responsive"  src="https://instagram.fath4-2.fna.fbcdn.net/vp/c06ac764307b16308568a61e22f80e85/5C7F3A50/t51.2885-15/e35/43914403_2211112399162814_80660397412365653_n.jpg" alt="breakfast at acropolis"width="300px">
-      <div class="caption">
-        <h3>2</h3>
-        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus placeat, fugiat culpa debitis adipisci ad assumenda libero, fugit nobis recusandae non consectetur in aliquam distinctio! Sunt rem cumque ipsam voluptate!</p>
-        <div class="container d-flex clearfix">
-          <div class="price">$12</div>
-          <a href="#" class="btn btn-success ml-auto"  role="button">Button</a>
-        </div>
-
-      </div>
-    </div>
-  </div>
-    <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img class="img-responsive"  src="https://instagram.fath4-2.fna.fbcdn.net/vp/c06ac764307b16308568a61e22f80e85/5C7F3A50/t51.2885-15/e35/43914403_2211112399162814_80660397412365653_n.jpg" alt="breakfast at acropolis"width="300px">
-      <div class="caption">
-        <h3>3</h3>
-        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus placeat, fugiat culpa debitis adipisci ad assumenda libero, fugit nobis recusandae non consectetur in aliquam distinctio! Sunt rem cumque ipsam voluptate!</p>
-        <div class="container d-flex clearfix">
-          <div class="price">$12</div>
-          <a href="#" class="btn btn-success ml-auto"  role="button">Button</a>
-        </div>
-
-      </div>
-    </div>
-  </div>
+  {{/each}}
+  
 </div>
-<div class="row mt-5">
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img class="img-responsive"  src="https://instagram.fath4-2.fna.fbcdn.net/vp/c06ac764307b16308568a61e22f80e85/5C7F3A50/t51.2885-15/e35/43914403_2211112399162814_80660397412365653_n.jpg" alt="breakfast at acropolis"width="300px">
-      <div class="caption">
-        <h3>4</h3>
-        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus placeat, fugiat culpa debitis adipisci ad assumenda libero, fugit nobis recusandae non consectetur in aliquam distinctio! Sunt rem cumque ipsam voluptate!</p>
-        <div class="container d-flex clearfix">
-          <div class="price">$12</div>
-          <a href="#" class="btn btn-success ml-auto"  role="button">Button</a>
-        </div>
+{{/each}}
 
-      </div>
-    </div>
-  </div>
-    <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img class="img-responsive"  src="https://instagram.fath4-2.fna.fbcdn.net/vp/c06ac764307b16308568a61e22f80e85/5C7F3A50/t51.2885-15/e35/43914403_2211112399162814_80660397412365653_n.jpg" alt="breakfast at acropolis"width="300px">
-      <div class="caption">
-        <h3>5</h3>
-        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus placeat, fugiat culpa debitis adipisci ad assumenda libero, fugit nobis recusandae non consectetur in aliquam distinctio! Sunt rem cumque ipsam voluptate!</p>
-        <div class="container d-flex clearfix">
-          <div class="price">$12</div>
-          <a href="#" class="btn btn-success ml-auto"  role="button">Button</a>
-        </div>
 
-      </div>
-    </div>
-  </div>
-    <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img class="img-responsive"  src="https://instagram.fath4-2.fna.fbcdn.net/vp/c06ac764307b16308568a61e22f80e85/5C7F3A50/t51.2885-15/e35/43914403_2211112399162814_80660397412365653_n.jpg" alt="breakfast at acropolis"width="300px">
-      <div class="caption">
-        <h3>6</h3>
-        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus placeat, fugiat culpa debitis adipisci ad assumenda libero, fugit nobis recusandae non consectetur in aliquam distinctio! Sunt rem cumque ipsam voluptate!</p>
-        <div class="container d-flex clearfix">
-          <div class="price">$12</div>
-          <a href="#" class="btn btn-success ml-auto"  role="button">Button</a>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</div>

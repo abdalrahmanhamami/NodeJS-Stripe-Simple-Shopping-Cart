@@ -7,4 +7,8 @@ var schema = new Schema({
   description: { type: String, required: true },
   price: { type: Number, required: true }
 });
-module.exports = mongoose.model("Product", schema);
+module.exports = mongoose.model(newFunction(), schema);
+function newFunction() {
+  return "Product";
+}
+
