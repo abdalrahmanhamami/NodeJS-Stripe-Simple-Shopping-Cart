@@ -1,0 +1,30 @@
+[
+     
+ 
+ 
+    {"lan":"ar", "txt": "التعليمات على السلطة الإيرادات المستقلة"}, 
+    {"lan":"bg", "txt": "Отговори на независим орган по приходите"}, 
+ 
+    {"lan":"de", "txt": "FAQ auf der unabhängigen Revenue Authority"}, 
+    {"lan":"el", "txt": "Συχνές ερωτήσεις από την Ανεξάρτητη Αρχή Δημοσίων Εσόδων"}, 
+    {"lan":"en", "txt": "FAQ on the Independent Revenue Authority"}, 
+    {"lan":"es", "txt": "Preguntas frecuentes sobre la Administración Fiscal de Independiente"}, 
+    {"lan":"fr", "txt": "FAQ sur l'administration fiscale indépendant"}, 
+    {"groupName" : "grids.name"}, 
+    {"groupOption" : "aadeFaqs"}, 
+    {"lan":"hi", "txt": "स्वतंत्र राजस्व प्राधिकरण पर पूछे जाने वाले प्रश्न"}, 
+    {"lan":"it", "txt": "FAQ sul l'autorità indipendente delle Entrate"}, 
+    {"lan":"pa", "txt": "ਆਜ਼ਾਦ ਮਾਲ ਅਥਾਰਟੀ 'ਤੇ ਸਵਾਲ"}, 
+    {"lan":"pl", "txt": "Pytania w sprawie niezależnego organu skarbowego"}, 
+    {"lan":"ro", "txt": "Întrebări frecvente privind autoritatea independentă de venituri"}, 
+    {"lan":"ru", "txt": "FAQ по независимой налоговой администрации"}, 
+    {"lan":"sq", "txt": "FAQ mbi Autoritetin e Pavarur Ardhurave"}, 
+    {"lan":"sv", "txt": "FAQ på Independent Revenue Authority"}, 
+    {"lan":"tr", "txt": "Bağımsız Gelir Authority'de SSS"}, 
+    {"lan":"uk", "txt": "FAQ по незалежної податкової адміністрації"}, 
+    {"lan":"yo", "txt": "FAQ lori awọn Ominira Revenue Authority"}, 
+    {"lan":"zh", "txt": "常见问题解答关于独立税务局"}
+
+
+
+]
